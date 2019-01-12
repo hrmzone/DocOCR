@@ -20,12 +20,12 @@ public class DocOCR {
             action.actionDir();
         } else if(args[0].equalsIgnoreCase("-h")) {
             System.out.println("使用方法:");
-            System.out.println("1.单个图片识别：[ java -jar -f filename ]"+"\t 识别指定图片文件:filename");
-            System.out.println("2.批量图片识别：[ java -jar -d filepath ]"+"\t 识别指定目录中的全部图片:filepath");
+            System.out.println("1.单个图片识别：[ java -jar DocOCR.jar -f filename ]"+"\t 识别指定图片文件:filename");
+            System.out.println("2.批量图片识别：[ java -jar DocOCR.jar -d filepath ]"+"\t 识别指定目录中的全部图片:filepath");
         } else {
             System.out.println("警告：无法识别你的输入。");
-            System.out.println("1.单个图片识别：[ java -jar -f filename ]"+"\t 识别指定图片文件:filename");
-            System.out.println("2.批量图片识别：[ java -jar -d filepath ]"+"\t 识别指定目录中的全部图片:filepath");
+            System.out.println("1.单个图片识别：[ java -jar DocOCR.jar -f filename ]"+"\t 识别指定图片文件:filename");
+            System.out.println("2.批量图片识别：[ java -jar DocOCR.jar -d filepath ]"+"\t 识别指定目录中的全部图片:filepath");
         }
     }
 }
