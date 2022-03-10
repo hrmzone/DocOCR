@@ -9,33 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b2aa92b-4f23-4789-8960-7014f03f565b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DocOCR.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DocOCR.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/aip-java-sdk-4.8.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/json-20160810.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/junit-4.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DocOCR_jar/DocOCR.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DocOCR_jar/DocOCR.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocOCR/cn/hrmzone/main/DocOCR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocOCR/cn/hrmzone/main/SinglePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocOCR/cn/hrmzone/test/ActionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocOCR/cn/hrmzone/test/ClientTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocOCR/cn/hrmzone/util/FileUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocOCR/cn/hrmzone/util/ImgList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocOCR/cn/hrmzone/util/OCRAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DocOCR/cn/hrmzone/util/OCRClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hrmzone/main/DocOCR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hrmzone/main/DocOCR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hrmzone/main/SinglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hrmzone/main/SinglePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hrmzone/test/ActionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hrmzone/test/ActionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hrmzone/test/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hrmzone/test/ClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hrmzone/util/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hrmzone/util/FileUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hrmzone/util/ImgList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hrmzone/util/ImgList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hrmzone/util/OCRAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hrmzone/util/OCRAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/hrmzone/util/OCRClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hrmzone/util/OCRClient.java" afterDir="false" />
-    </list>
+    <list default="true" id="7b2aa92b-4f23-4789-8960-7014f03f565b" name="Default" comment="update:&#10;1、将项目变更为maven管理，去掉了lib目录及下面的jar包；&#10;2、增加识别图片表格功能，将图片表格输出为excel文件。&#10;3、具体实现在cn.hrmzone.table包下。" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -415,6 +389,21 @@
       <option name="presentableId" value="Default" />
       <updated>1546762185353</updated>
     </task>
+    <task id="LOCAL-00001" summary="update:&#10;1、将项目变更为maven管理，去掉了lib目录及下面的jar包；&#10;2、增加识别图片表格功能，将图片表格输出为excel文件。&#10;3、具体实现在cn.hrmzone.table包下。">
+      <created>1646887505204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646887505204</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update:&#10;1、将项目变更为maven管理，去掉了lib目录及下面的jar包；&#10;2、增加识别图片表格功能，将图片表格输出为excel文件。&#10;3、具体实现在cn.hrmzone.table包下。">
+      <created>1646887686969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646887686969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -496,6 +485,10 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update:&#10;1、将项目变更为maven管理，去掉了lib目录及下面的jar包；&#10;2、增加识别图片表格功能，将图片表格输出为excel文件。&#10;3、具体实现在cn.hrmzone.table包下。" />
+    <option name="LAST_COMMIT_MESSAGE" value="update:&#10;1、将项目变更为maven管理，去掉了lib目录及下面的jar包；&#10;2、增加识别图片表格功能，将图片表格输出为excel文件。&#10;3、具体实现在cn.hrmzone.table包下。" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
