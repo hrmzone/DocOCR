@@ -58,7 +58,8 @@ public class ImgList {
     }
 
     public static void main(String[] args) {
-        ImgList iList=new ImgList("imgs");
+//        ImgList iList=new ImgList("imgs");
+        ImgList iList=new ImgList("F:\\道恒共建\\2022\\21一分一档线\\对口电子电工");
         System.out.println(iList.getFileList());
     }
 }
