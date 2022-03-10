@@ -26,13 +26,14 @@ public class TableTest {
         path="F:\\道恒共建\\2022\\21一分一档线\\对口电子电工\\0002.jpg";
     }
 
-    @Ignore
+//    @Ignore
+    @Test
     public void singlePic() {
         TableOcr ocr=new TableOcr(client,path);
         ocr.writeFile();
 
     }
-
+    @Ignore
     @Test
     public void multiPic() {
         String path="F:\\道恒共建\\2022\\21一分一档线\\音乐";

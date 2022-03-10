@@ -11,6 +11,9 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/**
+ * 将获取的数据，存放再excel指定的单元格中。
+ */
 public class ExcelUtil {
     String fileName;
     Workbook workbook;
@@ -26,6 +29,7 @@ public class ExcelUtil {
         sheet=workbook.createSheet(FileNameParser.getName(fileName));
     }
     public void writeCell(int row,int col,String s) {
+        //注意：单元格是先创建行，然后在行中获得cell，所以需要先获取这一行，让后填入输入，如果每次新建行，只会保留最后一个单元格数据。
         Row row1=sheet.getRow(row);
         if(row1==null) {
             row1= sheet.createRow(row);

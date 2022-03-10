@@ -5,6 +5,9 @@ import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+/**
+ * 解析文件地址，获取输入文件路径的目录和文件名
+ */
 public class FileNameParser {
 
     public static String getPath(String s) {

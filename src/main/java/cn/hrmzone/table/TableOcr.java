@@ -18,6 +18,9 @@ public class TableOcr {
         this.imgPath = imgPath;
     }
 
+    /**
+     * 解析图片表格数据，根据返回的json，获取row、col和内容，将数据存入响应的excel行和列
+     */
     public void writeFile() {
         excelUtil=new ExcelUtil(imgPath);
         excelUtil.newSheet(imgPath);
@@ -25,6 +28,10 @@ public class TableOcr {
         options.put("language_type", "CHN_ENG");
         options.put("detect_direction", "true");
         JSONObject res=client.form(imgPath,options);
+        /*
+        返回的json，是一个多层嵌套的json内容，需要先获取JSONArray，再从中获取一个jsonobject，再获取JSONArray。
+        可以通过格式化全部json内容，查看详细的分层格式
+         */
         JSONArray bodyArray=res.getJSONArray("forms_result").getJSONObject(0).getJSONArray("body");
         int len=bodyArray.length();
 

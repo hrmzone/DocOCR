@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b2aa92b-4f23-4789-8960-7014f03f565b" name="Default" comment="update:&#10;1、将项目变更为maven管理，去掉了lib目录及下面的jar包；&#10;2、增加识别图片表格功能，将图片表格输出为excel文件。&#10;3、具体实现在cn.hrmzone.table包下。" />
+    <list default="true" id="7b2aa92b-4f23-4789-8960-7014f03f565b" name="Default" comment="update:&#10;1、将项目变更为maven管理，去掉了lib目录及下面的jar包；&#10;2、增加识别图片表格功能，将图片表格输出为excel文件。&#10;3、具体实现在cn.hrmzone.table包下。">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DocOCR_jar/DocOCR.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DocOCR_jar/DocOCR.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/hrmzone/table/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hrmzone/table/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/hrmzone/table/TableOcr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hrmzone/table/TableOcr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/hrmzone/test/TableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hrmzone/test/TableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/hrmzone/util/FileNameParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hrmzone/util/FileNameParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/hrmzone/table/ExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/hrmzone/table/ExcelUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/hrmzone/table/TableOcr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/hrmzone/table/TableOcr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/hrmzone/test/TableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/hrmzone/test/TableTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,7 +170,7 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.TableTest.multiPic">
+  <component name="RunManager" selected="JUnit.TableTest.singlePic">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -372,11 +382,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TableTest.singlePic" />
         <item itemvalue="JUnit.TableTest.multiPic" />
         <item itemvalue="JUnit.TableTest" />
         <item itemvalue="Application.FileNameParser" />
         <item itemvalue="Application.ImgList" />
-        <item itemvalue="JUnit.TableTest.singlePic" />
       </list>
     </recent_temporary>
   </component>
@@ -403,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646887686969</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update:&#10;1、将项目变更为maven管理，去掉了lib目录及下面的jar包；&#10;2、增加识别图片表格功能，将图片表格输出为excel文件。&#10;3、具体实现在cn.hrmzone.table包下。">
+      <created>1646888447005</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646888447005</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
